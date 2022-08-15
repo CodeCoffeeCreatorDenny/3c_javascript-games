@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2D Break Block Game</title>
+    <link
+      rel="stylesheet"
+      href="http://googleapis.com/css?family?=Germania+One"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="sound">
+      <img src="img/SOUND_ON.png" alt="sound-on" id="sound" />
+    </div>
+
+    <div id="gameover">
+      <img src="img/gameover.png" alt="gameover" id="youlose" />
+      <div id="restart">Play Again!</div>
+    </div>
+
+    <canvas id="breakout" width="400" height="500"></canvas>
+
+    <script src="components.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
